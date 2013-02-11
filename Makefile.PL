@@ -12,7 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Business::CPI models for Catalyst",
   "AUTHOR" => "Andr\303\251 Walker <andre\@andrewalker.net>",
   "BUILD_REQUIRES" => {
-    "File::Path" => 2
+    "File::Path" => "2.08"
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -22,12 +22,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Catalyst::Model::CPI",
   "PREREQ_PM" => {
-    "Business::CPI" => "0.5",
+    "Business::CPI" => "0.903",
     "Catalyst::Runtime" => "5.8",
+    "Class::Load" => "0.20",
     "Module::Pluggable" => 0,
-    "Moo::Role" => 0
+    "Moo::Role" => 0,
+    "Moose" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

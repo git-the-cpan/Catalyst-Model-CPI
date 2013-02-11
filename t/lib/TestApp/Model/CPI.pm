@@ -1,7 +1,6 @@
 package #
     TestApp::Model::CPI;
-use Moose;
-extends 'Catalyst::Model::CPI';
+use base 'Catalyst::Model::CPI';
 
 __PACKAGE__->config(
     gateway => {
@@ -16,5 +15,4 @@ __PACKAGE__->config(
     },
 );
 
-no Moose;
 1;
