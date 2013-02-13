@@ -25,11 +25,11 @@ my %WriteMakefileArgs = (
     "Business::CPI" => "0.903",
     "Catalyst::Runtime" => "5.8",
     "Class::Load" => "0.20",
-    "Module::Pluggable" => 0,
-    "Moo::Role" => 0,
-    "Moose" => 0
+    "Module::Pluggable" => "3.8",
+    "Moo::Role" => "1.0",
+    "Moose" => "0.73"
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
